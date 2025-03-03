@@ -9,30 +9,15 @@ cli_tools_list={
     node
 }
 
-#list of cask
-cask_list={
-    visual-studio-code
-    iterm2
-    slack
-    postman
-    docker
-    vlc
-    spotify
-    discord
-    zoom
-    microsoft-teams
-    whatsapp
-    telegram
-}
-
+#list of cask applications
 web_browser_list={
     google-chrome
     firefox
     tor-browser
     microsoft-edge
-
 }
-development_tools_list={
+
+development_software_list={
     visual-studio-code
     iterm2
     postman
@@ -56,7 +41,64 @@ development_tools_list={
     netbeans
     eclipse
     codeblocks
+}
 
+creative_design_softwares={
+    adobe-creative-cloud
+    blender
+    gimp
+    inkscape
+    krita
+    scribus
+    darktable
+    rawther
+    shotcut
+    openshot
+    davinci-resolve
+    lightworks
+    hitfilm-express
+    natron
+}
+
+productivity_softwares_list={
+    slack
+    zoom
+    microsoft-teams
+    discord
+    telegram
+    skype
+    viber
+    whatsapp
+    signal
+    notion
+    evernote
+    todoist
+    trello
+    asana
+    notion
+    evernote
+    todoist
+    trello
+    asana
+    google-keep
+    google-tasks
+    google-calendar
+    microsoft-to-do
+    microsoft-onenote
+    microsoft-outlook
+    microsoft-word
+    microsoft-excel
+    microsoft-powerpoint
+    microsoft-access
+    microsoft-publisher
+    microsoft-visio
+    microsoft-project
+    microsoft-teams
+    microsoft-skype
+    microsoft-lync
+    microsoft-sharepoint
+    microsoft-onedrive
+    microsoft-azure
 }
 
 #Determine the path of Homebrew
