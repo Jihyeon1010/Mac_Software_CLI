@@ -11,8 +11,6 @@ cli_tools_list={
 
 #list of cask
 cask_list={
-    google-chrome
-    firefox
     visual-studio-code
     iterm2
     slack
@@ -25,6 +23,40 @@ cask_list={
     microsoft-teams
     whatsapp
     telegram
+}
+
+web_browser_list={
+    google-chrome
+    firefox
+    tor-browser
+    microsoft-edge
+
+}
+development_tools_list={
+    visual-studio-code
+    iterm2
+    postman
+    docker
+    github
+    gitkraken
+    sourcetree
+    sublime-text
+    atom
+    brackets
+    intellij-idea
+    pycharm
+    webstorm
+    phpstorm
+    clion
+    goland
+    rider
+    datagrip
+    android-studio
+    visual-studio
+    netbeans
+    eclipse
+    codeblocks
+
 }
 
 #Determine the path of Homebrew
