@@ -7,6 +7,11 @@ cli_tools_list={
     curl
     htop
     node
+    tree
+    zsh
+    neofetch
+    tmux
+    vim
 }
 
 #list of cask applications
@@ -15,6 +20,9 @@ web_browser_list={
     firefox
     tor-browser
     microsoft-edge
+    opera
+    brave-browser
+    vivaldi
 }
 
 development_software_list={
@@ -38,9 +46,7 @@ development_software_list={
     datagrip
     android-studio
     visual-studio
-    netbeans
     eclipse
-    codeblocks
 }
 
 creative_design_softwares={
@@ -49,56 +55,44 @@ creative_design_softwares={
     gimp
     inkscape
     krita
-    scribus
-    darktable
-    rawther
-    shotcut
-    openshot
     davinci-resolve
-    lightworks
-    hitfilm-express
-    natron
 }
 
 productivity_softwares_list={
-    slack
-    zoom
-    microsoft-teams
-    discord
-    telegram
-    skype
-    viber
-    whatsapp
-    signal
-    notion
-    evernote
-    todoist
-    trello
-    asana
-    notion
-    evernote
-    todoist
-    trello
-    asana
-    google-keep
-    google-tasks
-    google-calendar
-    microsoft-to-do
+    microsoft-office
+    microsoft-edxcel
+    microsoft-word
+    microsoft-powerpoint
     microsoft-onenote
     microsoft-outlook
-    microsoft-word
-    microsoft-excel
-    microsoft-powerpoint
-    microsoft-access
-    microsoft-publisher
-    microsoft-visio
-    microsoft-project
+    microsoft-onedrive
     microsoft-teams
     microsoft-skype
-    microsoft-lync
-    microsoft-sharepoint
-    microsoft-onedrive
-    microsoft-azure
+    microsoft-remote-desktop
+    microsoft-to-do
+    microsoft-365
+    adobe-acrobat-reader
+    adobe-acrobat-pro
+    google-docs
+    google-sheets
+    google-slides
+    google-drive
+    dropbox
+    evernote
+    notion
+    zettlr
+    libreoffice
+}
+
+text_editors_list={
+    visual-studio-code
+    sublime-text
+    atom
+    zettlr
+    notion
+    onenote
+    notepad-plus-plus
+    evernote
 }
 
 #Determine the path of Homebrew
@@ -139,10 +133,13 @@ install_cask() {
 #User commandd line interface after installation the homebrew and path setup
 user_cli() {
     echo ""
-    echo ""
-    echo ""
-    echo ""
-    read ""
+    echo "1. Install CLI tools"
+    echo "2. Install Web Browsers"
+    echo "3. Install Development Software"
+    echo "4. Install Creative Design Software"
+    echo "5. Install Productivity Software"
+    echo "6. Exit"
+    read -p "Choose an option: " choice
 }
 
 # Check if Homebrew is installed
